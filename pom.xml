@@ -47,11 +47,17 @@
 
     <!-- Developers -->
     <developers>
+        <!-- Developer: Mark Rienstra -->
         <developer>
             <id>mrienstra</id>
             <name>Mark Rienstra</name>
             <email>m.rienstra96@gmail.com</email>
             <organization>SnowTechnology</organization>
+            <roles>
+                <role>Founder</role>
+                <role>Architect</role>
+                <role>Lead Programmer</role>
+            </roles>
         </developer>
     </developers>
 
