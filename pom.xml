@@ -67,22 +67,22 @@
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-platform</artifactId>
-            <classifier>natives-windows</classifier>
             <version>${lwjgl.version}</version>
+            <classifier>natives-windows</classifier>
         </dependency>
         <!-- LWJGL Natives Linux 3.0.0 -->
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-platform</artifactId>
-            <classifier>natives-linux</classifier>
             <version>${lwjgl.version}</version>
+            <classifier>natives-linux</classifier>
         </dependency>
         <!-- LWJGL Natives MacOSX 3.0.0 -->
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-platform</artifactId>
-            <classifier>natives-osx</classifier>
             <version>${lwjgl.version}</version>
+            <classifier>natives-osx</classifier>
         </dependency>
     </dependencies>
 </project>
