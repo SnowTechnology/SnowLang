@@ -1,0 +1,7 @@
+#   Devlog Day 1
+
+Today (Friday 23th of september 2016) I started my project on SnowLang.
+A short explanation about SnowLang is that it brings game development to a new standard (at least I hope so).
+With SnowLang you have access to many libraries by default.
+A few of the supported libraries for this version will be GLFW, OpenGL & Vulkan, OpenCL and OpenAL.
+The goal of this project is to create a language that is mainly focusing on game development/engineering.
