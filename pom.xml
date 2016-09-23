@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.snowlang</groupId>
+    <artifactId>snowlang</artifactId>
+    <version>1.0.0-PREALPHA</version>
+    <packaging>jar</packaging>
+
+    <!-- Properties -->
+    <properties>
+        <!-- Dependency Versions -->
+        <lwjgl.version>3.0.0</lwjgl.version>
+        <!-- Directories -->
+        <directories>${basedir}</directories>
+        <!-- Output Directories -->
+        <directories.output>${directories}/bin</directories.output>
+        <directories.output.release>${directories.output}/release</directories.output.release>
+        <directories.output.debug>${directories.output}/debug</directories.output.debug>
+        <!-- Source Directories -->
+        <directories.source>${directories}/src</directories.source>
+        <directories.source.main>${directories.source}/main</directories.source.main>
+        <directories.source.tests>${directories.source}/test</directories.source.tests>
+        <!-- Code Directories -->
+        <directories.source.main.java>${directories.source.main}/java</directories.source.main.java>
+        <directories.source.tests.java>${directories.source.tests}/java</directories.source.tests.java>
+        <!-- Resource Directories -->
+        <directories.resources.main>${directories.source.main}/resources</directories.resources.main>
+        <directories.resources.tests>${directories.source.tests}/resources</directories.resources.tests>
+    </properties>
+
+    <!-- Licenses -->
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+</project>
