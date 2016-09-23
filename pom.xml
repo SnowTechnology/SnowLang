@@ -38,4 +38,51 @@
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+
+    <!-- Organization -->
+    <organization>
+        <name>SnowTechnology</name>
+        <url>https://github.com/SnowTechnology</url>
+    </organization>
+
+    <!-- Developers -->
+    <developers>
+        <developer>
+            <id>mrienstra</id>
+            <name>Mark Rienstra</name>
+            <email>m.rienstra96@gmail.com</email>
+            <organization>SnowTechnology</organization>
+        </developer>
+    </developers>
+
+    <!-- Dependencies -->
+    <dependencies>
+        <!-- LWJGL 3.0.0 -->
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl</artifactId>
+            <version>${lwjgl.version}</version>
+        </dependency>
+        <!-- LWJGL Natives Windows 3.0.0 -->
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-platform</artifactId>
+            <classifier>natives-windows</classifier>
+            <version>${lwjgl.version}</version>
+        </dependency>
+        <!-- LWJGL Natives Linux 3.0.0 -->
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-platform</artifactId>
+            <classifier>natives-linux</classifier>
+            <version>${lwjgl.version}</version>
+        </dependency>
+        <!-- LWJGL Natives MacOSX 3.0.0 -->
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-platform</artifactId>
+            <classifier>natives-osx</classifier>
+            <version>${lwjgl.version}</version>
+        </dependency>
+    </dependencies>
 </project>
